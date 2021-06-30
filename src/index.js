@@ -1,17 +1,44 @@
+// Common in All 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./index.css";
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// 4. Netflix Project
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+
+
+
+
+
+
+
+
+
+// 3. Calculation Project
+
+// import { add, sub, div, multi } from "./Calc";
+// ReactDOM.render(
+//     <>
+//       <ul>
+//           <li> sum of two no is {add(40, 4)} </li>
+//           <li> sub of two no is {sub(30, 3)} </li>
+//           <li> div of two no is {div(10, 3)} </li>
+//           <li> multi of two no is {multi(10, 3)} </li>
+//       </ul>
+//     </>
+//     , document.getElementById('root'));
+
+// 2. Dynamic Time Change and Wish 
+
+// import App from "./App";
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+
+
